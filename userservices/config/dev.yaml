@@ -1,0 +1,37 @@
+# Configuration file.
+
+# Server Details
+server:
+  host: 10.102.78.95
+  port: 8096
+
+# Database Details
+database:
+  dbHost: localhost
+  dbPort: 27017
+  dbName: MVRDB
+  dbDriver: mongodb
+  dbUsername: admin
+  dbPassword: VRCASINO@ENTAIN
+
+# Authentication Service Details
+authService:
+  serverHost: localhost
+  serverPort: 8200
+
+# Websocket Service Details
+webSocketService:
+  serverHost: localhost
+  serverPort: 8096
+
+# User Service Details
+userService:
+  serverHost: localhost
+  serverPort: 4000
+
+# Leaderboard Service Details
+leaderBoardService:
+  serverHost: localhost
+  serverPort: 5000
+# Log Level Information, Levels:{ INFO, DEBUG, ERROR, WARN, PANIC, FATAL }
+logLevel: INFO
